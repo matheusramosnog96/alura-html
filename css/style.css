@@ -162,15 +162,13 @@ form label {
     margin: 0 0 10px;
 }
 
-form label,
-form p {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
-form label,
-form legend {
+form label, form legend {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -260,12 +258,10 @@ thead {
     font-weight: bold;
 }
 
-td,
-th {
+td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
-
 
 /* css da página inicial */
 
@@ -373,5 +369,20 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    body {}
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
+        width: auto;
+    }
+    img {
+        width: 80px;
+    }
+    h1  {
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
